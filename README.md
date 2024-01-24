@@ -17,6 +17,6 @@
 
 **Paquetage Transmission** : _Hichem S._
 
-**Paquetage Site Web de consultation** : _Maxime M._
-
 **Paquetage Gestion des données** : _Raphaël F._
+
+**Paquetage Site Web de consultation** : _Maxime M._
