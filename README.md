@@ -19,4 +19,4 @@
 
 **Paquetage Site Web de consultation** : _Maxime M._
 
-**Paquetage Gestion de données** : _Raphaël F._
+**Paquetage Gestion des données** : _Raphaël F._
