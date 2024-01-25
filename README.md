@@ -1,3 +1,7 @@
+![image_projet_illustré](image_projet.jpg)
+
+
+
 # DistriBag-2024
 
 
@@ -10,6 +14,15 @@
 [NewtBest](https://github.com/NewtBest) : Maxime M.
 
 [Raizukio](https://github.com/Raizukio) : Raphaël F.
+
+---------------------------------------------------------------------
+
+### Liens
+
+[Wiki sur Moodle](https://moodle23.lycee-vieljeux.fr/mod/wiki/view.php?id=525)
+
+[Dossier partagé sur Lycée Connecté](https://mon.lyceeconnecte.fr/workspace/workspace#/folder/94e38c80-f02c-4b09-bf39-d26b60ccd502)
+
 
 ---------------------------------------------------------------------
 
@@ -81,6 +94,7 @@ o	Utilisation d’une API carte type MAPS, OpenStreetMap …
 
 ---------------------------------------------------------------------
 
+
 ## Architecture
 
 ### Cahier des charges
@@ -96,5 +110,17 @@ L’application consiste :
 -	A mettre en œuvre un serveur de base de données
 -	A implémenter une interface PHP d’accès à la base de données pour les sites Client (et Techniques)
 ```
+
+---------------------------------------------------------------------
+
+### Diagrammes
+
+`à compléter...`
+
+---------------------------------------------------------------------
+
+### Description des composants principaux et de leurs interactions
+
+`à compléter...`
 
 ---------------------------------------------------------------------
