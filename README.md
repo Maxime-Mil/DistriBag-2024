@@ -1,4 +1,4 @@
-![image_projet_illustré](image_projet.jpg)
+![image projet illustré](image_projet.jpg)
 
 
 
@@ -117,7 +117,7 @@ L’application consiste :
 
 **_Diagramme de cas d'utilisation_**
 
-![](https://i.imgur.com/FbZZF5J.png)
+![diagramme de cas d'utilisation](diagrammes/diagrammeCasUtilisation.png)
 ---------------------------------------------------------------------
 
 ### Description des composants principaux et de leurs interactions
