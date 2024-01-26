@@ -19,7 +19,7 @@
 
 ### Liens
 
-[Wiki sur Moodle](https://moodle23.lycee-vieljeux.fr/mod/wiki/view.php?id=525)
+[Wiki sur Moodle](https://moodle23.lycee-vieljeux.fr/mod/wiki/map.php?pageid=6)
 
 [Dossier partagé sur Lycée Connecté](https://mon.lyceeconnecte.fr/workspace/workspace#/folder/94e38c80-f02c-4b09-bf39-d26b60ccd502)
 
