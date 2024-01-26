@@ -114,6 +114,9 @@ L’application consiste :
 ---------------------------------------------------------------------
 
 ### Diagrammes
+
+**_Diagramme de cas d'utilisation_**
+
 ![](https://i.imgur.com/FbZZF5J.png)
 ---------------------------------------------------------------------
 
