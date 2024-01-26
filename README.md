@@ -114,9 +114,7 @@ L’application consiste :
 ---------------------------------------------------------------------
 
 ### Diagrammes
-
-`à compléter...`
-
+![](https://i.imgur.com/FbZZF5J.png)
 ---------------------------------------------------------------------
 
 ### Description des composants principaux et de leurs interactions
