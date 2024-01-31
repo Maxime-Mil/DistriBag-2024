@@ -126,7 +126,7 @@ Composants Web:
 
 Les composants Web sont une suite de différentes technologies qui vous permettent de créer des éléments personnalisés réutilisables. Un des composants qu’on aura besoin c’est l’API Maps JavaScript. 
 Pour la localisation des distributeurs de baguettes de pain il faudra intégrer une cartes (map par gps) pour visualiser la localisation d’un distributeur proche et cette API est très importante. 
-Avec celui-ci on pourra rechercher des distributeurs par emplacement géographique.
+Avec celui-ci on pourra rechercher des distributeurs par emplacement géographique et obtenir leur adresse.
 
 `à compléter...`
 
