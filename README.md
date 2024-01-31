@@ -128,6 +128,12 @@ Les composants Web sont une suite de différentes technologies qui vous permette
 Pour la localisation des distributeurs de baguettes de pain il faudra intégrer une cartes (map par gps) pour visualiser la localisation d’un distributeur proche et cette API est très importante. 
 Avec celui-ci on pourra rechercher des distributeurs par emplacement géographique et obtenir leur adresse.
 
+Framework PHP:
+
+PHP Hypertext Proprocessor (PHP) est un langage de scripts qui permet de développer des applications web. 
+On va l’utiliser pour créer un site web qui pourra fournir des détails sur chaque distributeur en temps réel, comme l'adresse, les horaires d'ouverture, les types de baguettes proposées, disponibilité. 
+Voir les états de chaque distributeur en fonction de la disponibilité des baguettes et de la maintenance.
+
 `à compléter...`
 
 ---------------------------------------------------------------------
