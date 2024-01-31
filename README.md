@@ -115,7 +115,7 @@ L’application consiste :
 
 ### Diagrammes
 
-**_Diagramme de cas d'utilisation_**
+**_Diagramme de cas d'utilisation globale_**
 
 ![diagramme de cas d'utilisation](diagrammes/diagrammeCasUtilisation.png)
 ---------------------------------------------------------------------
