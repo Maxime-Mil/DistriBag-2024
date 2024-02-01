@@ -123,17 +123,17 @@ L’application consiste :
 ### Description des composants principaux et de leurs interactions
 
 
-Framework:
+**_Framework:
 
 Pour que les utilisateur puisse accèder aux données des différents distributeurs, il faudra implémenter un site web à partir de framework. Parmis ses framework il y a PHP et Bootstrap. PHP Hypertext Proprocessor (PHP) est un langage de scripts qui permet de développer des applications web. Bootstrap est un framework open source très connue pour le développement web. Il fournit beaucoup de composants et d'outils HTML, CSS et JavaScript pour la création de site web et d'interfaces utilisateur.
 Grâce au site web créé, on pourra fournir des détails sur chaque distributeur en temps réel, comme l'adresse, les horaires d'ouverture, les types de baguettes proposées, disponibilité. 
 Voir les états de chaque distributeur en fonction de la disponibilité des baguettes et de la maintenance.
 
-Classe d'accès:
+**_Classe d'accès:
 
 Chaque données des distributeurs est enregistrer dans une basse de donnée. Afin de pouvoir y accéder et de les intégrer au site, il va falloir utiliser une classe d'accès à la BDD. Une classe spécialement conçue pour interagir avec la base de données.
 
-Composants Web:
+**_Composants Web:
 
 Les composants Web sont une suite de différentes technologies qui vous permettent de créer des éléments personnalisés réutilisables. Un des composants qu’on aura besoin c’est l’API Maps. 
 Pour la localisation des distributeurs de baguettes de pain il faudra intégrer une cartes (map par gps) pour visualiser la localisation d’un distributeur proche et cette API est très importante. 
