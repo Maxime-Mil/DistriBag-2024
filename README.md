@@ -128,10 +128,10 @@ Les composants Web sont une suite de différentes technologies qui vous permette
 Pour la localisation des distributeurs de baguettes de pain il faudra intégrer une cartes (map par gps) pour visualiser la localisation d’un distributeur proche et cette API est très importante. 
 Avec celui-ci on pourra rechercher des distributeurs par emplacement géographique et obtenir leur adresse.
 
-Framework PHP:
+Framework:
 
-PHP Hypertext Proprocessor (PHP) est un langage de scripts qui permet de développer des applications web. 
-On va l’utiliser pour créer un site web qui pourra fournir des détails sur chaque distributeur en temps réel, comme l'adresse, les horaires d'ouverture, les types de baguettes proposées, disponibilité. 
+Pour que les utilisateur puisse accèder aux donnés des différents distributeurs, il faudra implémenter un site web à partir de framework. Parmis ses framework il y a PHP et Bootstrap. PHP Hypertext Proprocessor (PHP) est un langage de scripts qui permet de développer des applications web. Bootstrap est un framework open source très connue pour le développement web. Il fournit beaucoup de composants et d'outils HTML, CSS et JavaScript pour la création de site web et d'interfaces utilisateur.
+Grâce au site web créé, on pourra fournir des détails sur chaque distributeur en temps réel, comme l'adresse, les horaires d'ouverture, les types de baguettes proposées, disponibilité. 
 Voir les états de chaque distributeur en fonction de la disponibilité des baguettes et de la maintenance.
 
 `à compléter...`
