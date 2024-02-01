@@ -130,11 +130,11 @@ Voir les états de chaque distributeur en fonction de la disponibilité des bagu
 
 Classe d'accès:
 
-Chaque données des distributeurs est enregistrer dans une basse de donnée. Afin de pouvoir y accéder et de les intégrer au site, il va falloire utiliser une classe d'accès à la BDD. Une classe spécialement conçue pour interagir avec la base de données.
+Chaque données des distributeurs est enregistrer dans une basse de donnée. Afin de pouvoir y accéder et de les intégrer au site, il va falloir utiliser une classe d'accès à la BDD. Une classe spécialement conçue pour interagir avec la base de données.
 
 Composants Web:
 
-Les composants Web sont une suite de différentes technologies qui vous permettent de créer des éléments personnalisés réutilisables. Un des composants qu’on aura besoin c’est l’API Maps JavaScript. 
+Les composants Web sont une suite de différentes technologies qui vous permettent de créer des éléments personnalisés réutilisables. Un des composants qu’on aura besoin c’est l’API Maps. 
 Pour la localisation des distributeurs de baguettes de pain il faudra intégrer une cartes (map par gps) pour visualiser la localisation d’un distributeur proche et cette API est très importante. 
 Avec celui-ci on pourra rechercher des distributeurs par emplacement géographique et obtenir leur adresse.
 
