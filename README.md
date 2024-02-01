@@ -129,7 +129,7 @@ Pour que les utilisateur puisse accèder aux données des différents distribute
 Grâce au site web créé, on pourra fournir des détails sur chaque distributeur en temps réel, comme l'adresse, les horaires d'ouverture, les types de baguettes proposées, disponibilité.
 Voir les états de chaque distributeur en fonction de la disponibilité des baguettes et de la maintenance.
 
-**_Classe d'accès:_**
+**_Classe d'accès dans le site web:_**
 
 Chaque données des distributeurs est enregistrer dans une basse de donnée. Afin de pouvoir y accéder et de les intégrer au site, il va falloir utiliser une classe d'accès à la BDD. Une classe spécialement conçue pour interagir avec la base de données.
 
