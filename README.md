@@ -122,7 +122,7 @@ L’application consiste :
 
 ### Description des composants principaux et de leurs interactions
 
-Framework:
+**_Framework:_**
 
 Pour que les utilisateur puisse accèder aux données des différents distributeurs, il faudra implémenter un site web à partir de framework. Parmis ses framework il y a PHP et Bootstrap. PHP Hypertext Proprocessor (PHP) est un langage de scripts qui permet de développer des applications web. Bootstrap est un framework open source très connue pour le développement web. Il fournit beaucoup de composants et d'outils HTML, CSS et JavaScript pour la création de site web et d'interfaces utilisateur.
 Grâce au site web créé, on pourra fournir des détails sur chaque distributeur en temps réel, comme l'adresse, les horaires d'ouverture, les types de baguettes proposées, disponibilité.
