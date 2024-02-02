@@ -166,7 +166,7 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 
 – Le backend SigFox est opérationnel.
 
-– Le système électronique de gestion est fonctionnel
+– L’automate de gestion du distributeur est fonctionnel
 
 **Scénario**
 ```
