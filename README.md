@@ -144,9 +144,9 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 
 ---------------------------------------------------------------------
 
-### Scénario Nominal
+### Scénarios Nominaux
 
-Scénario nominal site web
+**_Scénario nominal site web_**
 
 1. L’utilisateur se dirige sur le site.
 2. Le site demande à l’utilisateur l’activation du GPS.
