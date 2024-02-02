@@ -143,3 +143,10 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 `à compléter...`
 
 ---------------------------------------------------------------------
+
+### Scénario Nominal
+
+
+`à compléter...`
+
+---------------------------------------------------------------------
