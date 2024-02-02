@@ -151,7 +151,7 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 
 **Acteurs principaux**
 
-– Système électronique de gestion du distributeur (Raspberry PI)
+– Automate de gestion du distributeur
 
 – Backend SigFox
 
@@ -159,7 +159,6 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 
 – Capteurs
 
-– Automate de gestion du distributeur
 
 **Préconditions**
 
