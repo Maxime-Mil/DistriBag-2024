@@ -169,7 +169,7 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 
 – Le système électronique de gestion est fonctionnel
 
-**Scénario nominal**
+**Scénario**
 ```
 1) Récupération des informations du distributeur
   a) Accéder aux capteurs et à l’automate de gestion
@@ -197,6 +197,7 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 - Fonctionnalité de localisation du navigateur
 - Accès à l'API Google Maps
 
+**Scénario**
 ```
 1. L’utilisateur se dirige sur le site.
 2. Le site demande à l’utilisateur l’activation du GPS.
