@@ -193,8 +193,11 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 **Préconditions**
 
 – Connexion Internet
+
 – Base de données SQL des distributeurs
+
 – Fonctionnalité de localisation du navigateur
+
 – Accès à l'API Google Maps
 
 **Scénario**
