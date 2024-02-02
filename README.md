@@ -146,6 +146,16 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 
 ### Scénario Nominal
 
+Scénario nominal site web
+
+1. L’utilisateur se dirige sur le site.
+2. Le site demande à l’utilisateur l’activation du GPS.
+3. Si l’utilisateur accepte, une carte avec les distributeurs de baguette les plus proche de lui apparaîtra.
+4. Si l’usager refuse, une carte de la France en grand avec tout les distributeurs de baguette.
+5. Un filtre apparaît à coté de la carte pour changer le rayons kilomètre au alentour
+6. Le site affiche le nombre total de distributeur en fonction du rayons de kilomètre.
+7. Lorsque l’utilisateur sélectionne un distributeur, l’état de la machine, l’horaire d’ouverture, les types de baguettes proposées et le stock restant.
+8. Le site pourra proposer à l’usager un itinéraire vers le distributeur choisit qui le redirigera vers Google Maps.
 
 `à compléter...`
 
