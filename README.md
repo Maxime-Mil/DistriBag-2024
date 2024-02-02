@@ -146,31 +146,8 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 
 ### Scénarios Nominaux
 
-
-
-**_Site web_**
-
-1. L’utilisateur se dirige sur le site.
-2. Le site demande à l’utilisateur l’activation du GPS.
-
-L’utilisateur accepte :
-
-3. Le site affiche une carte avec les distributeurs de baguette les plus proche de lui. 
-4. Un filtre apparaît à coté de la carte pour changer le rayons kilomètre au alentour
-5. Le site affiche le nombre total de distributeur en fonction du rayons de kilomètre.
-6. Lorsque l’utilisateur sélectionne un distributeur, un tableau apparaît avec l’état de la machine, l’horaire d’ouverture, les types de baguettes proposées et le stock restant.
-6. Le site pourra proposer à l’usager un itinéraire vers le distributeur sélectionné qui le redirigera vers Google Maps.
-
-L’utilisateur refuse :
-
-3. Le site affiche une carte de la France en grand avec tout les distributeurs de baguette.
-4. Lorsque l’utilisateur sélectionne un distributeur, un tableau apparaît avec l’état de la machine, l’horaire d’ouverture, les types de baguettes proposées et le stock restant.
-5. Le site pourra proposer à l’usager l’adresse vers le distributeur sélectionné et le redirigera vers Google Maps pour qu’il rentre sa position actuelle.
-
-`à compléter...`
-
----------------------------------------------------------------------
 **_Acquisition et transmission_**
+
 
 **Acteurs principaux**
 
@@ -202,6 +179,42 @@ L’utilisateur refuse :
   b) Envoi de la trame sur le réseau SigFox jusqu’au backend (périodiquement) et après un événement (Ex : Après l’achat d’une baguette)
 ```
 
+
+**_Site web_**
+
+**Acteurs Primaires**
+- L'Utilisateur
+  
+**Acteurs Secondaires**
+- API Google Maps 
+
+**Préconditions**
+- Connexion Internet
+- Base de données SQL des distributeurs
+- Fonctionnalité de localisation du navigateur
+- Accès à l'API Google Maps
+
+```
+1. L’utilisateur se dirige sur le site.
+2. Le site demande à l’utilisateur l’activation du GPS.
+
+L’utilisateur accepte :
+
+3. Le site affiche une carte avec les distributeurs de baguette les plus proche de lui. 
+4. Un filtre apparaît à coté de la carte pour changer le rayons kilomètre au alentour
+5. Le site affiche le nombre total de distributeur en fonction du rayons de kilomètre.
+6. Lorsque l’utilisateur sélectionne un distributeur, un tableau apparaît avec l’état de la machine, l’horaire d’ouverture, les types de baguettes proposées et le stock restant.
+6. Le site pourra proposer à l’usager un itinéraire vers le distributeur sélectionné qui le redirigera vers Google Maps.
+
+L’utilisateur refuse :
+
+3. Le site affiche une carte de la France en grand avec tout les distributeurs de baguette.
+4. Lorsque l’utilisateur sélectionne un distributeur, un tableau apparaît avec l’état de la machine, l’horaire d’ouverture, les types de baguettes proposées et le stock restant.
+5. Le site pourra proposer à l’usager l’adresse vers le distributeur sélectionné et le redirigera vers Google Maps pour qu’il rentre sa position actuelle.
+
+```
+
+`à compléter...`
 
 ---------------------------------------------------------------------
 
