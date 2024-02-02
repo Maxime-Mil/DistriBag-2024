@@ -211,7 +211,7 @@ L’utilisateur accepte :
 4. Un filtre apparaît à coté de la carte pour changer le rayons kilomètre au alentour
 5. Le site affiche le nombre total de distributeur en fonction du rayons de kilomètre.
 6. Lorsque l’utilisateur sélectionne un distributeur, un tableau apparaît avec l’état de la machine, l’horaire d’ouverture, les types de baguettes proposées et le stock restant.
-6. Le site pourra proposer à l’usager un itinéraire vers le distributeur sélectionné qui le redirigera vers Google Maps.
+7. Le site pourra proposer à l’usager un itinéraire vers le distributeur sélectionné qui le redirigera vers Google Maps.
 
 L’utilisateur refuse :
 
