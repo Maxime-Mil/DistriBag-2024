@@ -146,6 +146,8 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 
 ### Scénarios Nominaux
 
+
+
 **_Scénario nominal site web_**
 
 1. L’utilisateur se dirige sur le site.
@@ -168,3 +170,38 @@ L’utilisateur refuse :
 `à compléter...`
 
 ---------------------------------------------------------------------
+**_Acquisition et transmission_**
+
+**Acteurs principaux**
+
+– Système électronique de gestion du distributeur (Raspberry PI)
+
+– Backend SigFox
+
+**Acteurs Secondaires**
+
+– Capteurs
+
+– Automate de gestion du distributeur
+
+**Préconditions**
+
+– Le réseau SigFox est opérationnel
+
+– Le backend SigFox est opérationnel.
+
+– Le système électronique de gestion est fonctionnel
+
+**Scénario nominal**
+```
+1) Récupération des informations du distributeur
+  a) Accéder aux capteurs et à l’automate de gestion
+  b) Récupérer les valeurs et les formater afin de ne garder que l’essentiel (nombre de baguettes et état du distributeur [ON/OFF] )
+2) Envoi des informations
+  a) Encapsulation des données dans une trame formatée selon le schéma de la BDD
+  b) Envoi de la trame sur le réseau SigFox jusqu’au backend (périodiquement) et après un événement (Ex : Après l’achat d’une baguette)
+```
+
+
+---------------------------------------------------------------------
+
