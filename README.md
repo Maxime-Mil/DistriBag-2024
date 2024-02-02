@@ -184,18 +184,18 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 
 **Acteurs Primaires**
 
-- L'Utilisateur
+– L'Utilisateur
   
 **Acteurs Secondaires**
 
-- API Google Maps 
+– API Google Maps 
 
 **Préconditions**
 
-- Connexion Internet
-- Base de données SQL des distributeurs
-- Fonctionnalité de localisation du navigateur
-- Accès à l'API Google Maps
+– Connexion Internet
+– Base de données SQL des distributeurs
+– Fonctionnalité de localisation du navigateur
+– Accès à l'API Google Maps
 
 **Scénario**
 ```
