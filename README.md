@@ -178,6 +178,7 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
   b) Envoi de la trame sur le réseau SigFox jusqu’au backend (périodiquement) et après un événement (Ex : Après l’achat d’une baguette)
 ```
 
+---------------------------------------------------------------------
 
 **_Site web_**
 
