@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+    web:
+        image: lavoweb/php-5.6
+        ports:
+            - "80:80"
+        volumes:
+            - D:\Docker\www\html:/var/www/html
+        links:
+            - db:db
+    db:
+        image: mysql:5.5
+        volumes:
+            - D:\Docker\mysql:/var/lib/mysql
+        ports:
+            - "3307:3306"
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+    myadmin:
+        image: phpmyadmin/phpmyadmin
+        ports:
+            - "8080:80"
+        links:
+            - db:db
