@@ -1,3 +1,11 @@
+## Contributeurs
+
+Ce projet a été réalisé par le groupe DistriBaguette composé de :
+
+- [Maxime](https://github.com/Maxime-Mil)
+- [Hichem](https://github.com/0xstderr)
+- [Raphaël](https://github.com/Raizukio)
+
 ![image projet illustré](image_projet.jpg)
 
 
@@ -7,11 +15,11 @@
 
 ## Introduction
 
-### Auteurs et contributeurs 
+### Auteurs
 
-[0xstderr](https://github.com/0xstderr) : Hichem S.
+[0xstderr](https://github.com/0xstderr) : Hichem S. 
 
-[NewtBest](https://github.com/NewtBest) : Maxime M.
+[NewtBest](https://github.com/Maxime-Mil) : Maxime M.
 
 [Raizukio](https://github.com/Raizukio) : Raphaël F.
 
