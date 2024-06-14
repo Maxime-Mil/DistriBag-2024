@@ -19,7 +19,7 @@ Ce projet a été réalisé par le groupe DistriBaguette composé de :
 
 [0xstderr](https://github.com/0xstderr) : Hichem S. 
 
-[NewtBest](https://github.com/Maxime-Mil) : Maxime M.
+[Maxime-Mil](https://github.com/Maxime-Mil) : Maxime M.
 
 [Raizukio](https://github.com/Raizukio) : Raphaël F.
 
