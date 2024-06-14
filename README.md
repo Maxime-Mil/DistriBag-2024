@@ -140,7 +140,6 @@ Avec celui-ci on pourra rechercher des distributeurs par emplacement géographiq
 
 
 
-`à compléter...`
 
 ---------------------------------------------------------------------
 
@@ -221,7 +220,6 @@ L’utilisateur refuse :
 
 ```
 
-`à compléter...`
 
 ---------------------------------------------------------------------
 
