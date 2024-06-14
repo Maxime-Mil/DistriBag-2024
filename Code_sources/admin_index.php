@@ -30,7 +30,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
         <p>Vérifier la position et l'état des distributeurs de baguette de pain de France en temps réel.
         <br> Acceptez-vous qu'on accède à votre localisation ? (nécessite l'activation du gps) </p>
        
-        <button id="pageButton">Sans GPS</button>
+        <button id="pageButton">Carte sans vos cordonnées</button>
 
 <script>
     // Fonction pour détecter le type d'appareil
@@ -51,7 +51,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
 
  
 <p id="demo"></p>
-<button id="gpsButton">Avec GPS</button>
+<button id="gpsButton">Carte avec vos cordonnées</button>
 <br>
 
 <script>
@@ -104,7 +104,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
 <br><br>
 <button onclick="window.location.href='admin_error-tab.php'">Tableau d'erreur BDD</button> 
 <br><br><br><br>
-<button onclick="window.location.href='logout.php'">Utilisateur</button>
+<button onclick="window.location.href='logout.php'">Déconnecter</button>
 
       <!-- Pied de page -->
         <footer>
