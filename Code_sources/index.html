@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+	<a href="index.html">
+	   <img src="Image/DistriBagWebLogo.png" alt="Logo Distri Baguette" class="logo">
+	    </a>
+	   </div>
+    </header>
+    <main>
+        <p> Bienvenue sur le site Distri Baguettes !
+        <p> Regarder la position et l'état des distributeurs de baguette de pain les plus proche de vous en temps réel.
+        <br> Acceptez-vous qu'on accède à votre localisation ? (nécessite l'activation du gps) </p>
+       
+        <button id="pageButton">Sans GPS</button>
+
+<script>
+    // Fonction pour détecter le type d'appareil
+    function detectDevice() {
+        // Vérifier si l'appareil est un téléphone ou une tablette
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            // Rediriger vers la version mobile de la page
+            window.location.href = 'mobile-ma_page1.php';
+        } else {
+            // Rediriger vers la version standard de la page
+            window.location.href = 'ma_page1.php';
+        }
+    }
+
+    // Ajouter un gestionnaire d'événement au clic sur le bouton
+    document.getElementById('pageButton').addEventListener('click', detectDevice);
+</script>
+
+ 
+<p id="demo"></p>
+<button id="gpsButton">Avec GPS</button>
+<br>
+
+<script>
+    const x = document.getElementById("demo");
+    const gpsButton = document.getElementById("gpsButton");
+
+    // Fonction pour détecter le type d'appareil
+    function detectDeviceAndRedirect() {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            // Rediriger vers la version mobile de la page
+            getLocation();
+        } else {
+            // Rediriger vers la version standard de la page
+            getLocation(); // Appeler la fonction pour obtenir la position avec GPS
+        }
+    }
+
+    // Ajouter un gestionnaire d'événement au clic sur le bouton
+    gpsButton.addEventListener('click', detectDeviceAndRedirect);
+
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(mapPosition, showError);
+        } else {
+            x.innerHTML = "La Géolocalisation n'est pas supportée par votre navigateur. <br> Veuillez relancer depuis un navigateur plus récent ou rentrer manuellement votre adresse.";
+        }
+    }
+
+    function mapPosition(position) {
+        window.location.href = 'ma_page2.php';
+    }
+
+  function showError(error) {
+    switch(error.code) {
+      case error.PERMISSION_DENIED:
+        x.innerHTML = "Accès à la géolocalisation refusée. Veuillez charger la map sans gps.";
+        break;
+      case error.POSITION_UNAVAILABLE:
+        x.innerHTML = "Les cordonnées de localisation ne sont pas disponible. Veuillez charger la map sans gps.";
+        break;
+      case error.UNKNOWN_ERROR:
+        x.innerHTML = "Une erreur inconnue s'est produite. Essayer de charger la map sans gps. Sinon revenez plus tard";
+        break;
+    }
+  }
+</script>
+<br><br><br><br><br><br><br><br><br><br><br>
+<button onclick="window.location.href='login.html'">Admin</button>  
+
+    </main>
+</body>
+</html>
