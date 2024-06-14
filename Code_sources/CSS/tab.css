@@ -1,0 +1,25 @@
+#marqueur-info {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid #000000;
+  margin-top: 10px;
+        }
+
+        #marqueur-info td, #marqueur-info th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #marqueur-info th {
+            background-color: #f2f2f2;
+            color: #333;
+          text-align: left;
+        }
+
+#marqueur-info tr:nth-child(1n) {
+    background-color: #fdfdfd; /* Toutes les lignes seront blanches */
+}
+       #marqueur-info tr:nth-child {
+    background-color: #d5d5d5; /* Toutes les lignes seront blanches */
+}

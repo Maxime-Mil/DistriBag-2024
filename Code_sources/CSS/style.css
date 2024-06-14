@@ -1,0 +1,31 @@
+#map {
+    height: 400px;
+}
+#infos {
+    margin-top: 20px;
+}
+
+/* Teinte de couleur des marqueur */
+:root {
+    --hue-rotate-20: 20deg; /* bleu-violet */
+    --hue-rotate-150: 150deg; /* rouge */
+    --hue-rotate-200: 200deg; /* jaune */
+    --hue-rotate-290: 290deg; /* vert */
+}
+
+/* Classe des variables couleur */
+
+img.huechange-20 {
+    filter: hue-rotate(var(--hue-rotate-20));
+}
+img.huechange-150 {
+    filter: hue-rotate(var(--hue-rotate-150));
+}
+
+img.huechange-200 {
+    filter: hue-rotate(var(--hue-rotate-200));
+}
+
+img.huechange-290 {
+    filter: hue-rotate(var(--hue-rotate-290));
+}

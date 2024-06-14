@@ -1,0 +1,61 @@
+body { /* Font de page */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+}
+
+header {
+    background-color: #DADADA;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    margin-left: auto; /* Aligne le texte à droite du logo */
+}
+
+main {
+    padding: 10px;
+	  text-align: center;
+}
+
+p {
+    line-height: 1.4;
+	 text-align: center;
+}
+
+button {
+    background-color: #4c77af;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4c77af;
+}
+
+#demo {
+    color: rgb(255, 196, 0);
+    font-style: italic;
+}
+
